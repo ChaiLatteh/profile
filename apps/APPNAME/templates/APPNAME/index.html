@@ -50,6 +50,10 @@
       color:#1a1a1a;
       background-color:#FED766;
     }
+    #skills h3{
+      font-weight:bolder;
+      text-decoration-line:underline;
+    }
     #devicon{
       font-size:5em;
     }
@@ -69,7 +73,7 @@
   </head>
   <body>
     <!-- Navbar Start -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" id="myNavbar">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -79,7 +83,7 @@
           </button>
           <a class="navbar-brand" href="/">Chai Jang</a>
         </div>
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#aboutme">About Me</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -162,7 +166,7 @@
           <h1>SKILLS</h1>
           <div class="row">
             <div class="col-sm-6" style="margin-bottom:25px;">
-              <h3 style="font-weight:bolder;">Languages</h3>
+              <h3>Languages</h3>
               <i id="devicon" class="devicon-html5-plain-wordmark colored"></i>
               <i id="devicon" class="devicon-css3-plain-wordmark colored"></i>
               <i id="devicon" class="devicon-javascript-plain colored"></i>
@@ -170,7 +174,7 @@
               <i id="devicon" class="devicon-ruby-plain-wordmark colored"></i>
             </div>
             <div class="col-sm-6" style="margin-bottom:25px;">
-              <h3 style="font-weight:bolder;">Frameworks</h3>
+              <h3>Frameworks</h3>
               <i id="devicon" class="devicon-django-plain-wordmark colored"></i>
               <i id="devicon" class="devicon-nodejs-plain-wordmark colored"></i>
               <i id="devicon" class="devicon-angularjs-plain-wordmark colored"></i>
@@ -179,12 +183,12 @@
           </div>
           <div class="row">
             <div class="col-sm-6" style="margin-bottom:25px;">
-              <h3 style="font-weight:bolder;">Databases</h3>
+              <h3>Databases</h3>
               <i id="devicon" class="devicon-postgresql-plain-wordmark colored"></i>
               <i id="devicon" class="devicon-mongodb-plain-wordmark colored"></i>
             </div>
             <div class="col-sm-6" style="margin-bottom:25px;">
-              <h3 style="font-weight:bolder;">Etc.</h3>
+              <h3>Etc.</h3>
               <i id="devicon" class="devicon-amazonwebservices-plain-wordmark colored"></i>
               <i id="devicon" class="devicon-github-plain-wordmark colored"></i>
               <i id="devicon" class="devicon-bootstrap-plain-wordmark colored"></i>
@@ -273,21 +277,21 @@
         <h1>Let's get in touch!</h1>
         <div class="row">
           <div class="col-sm-3"></div>
-          <div class="col-sm-2">
+          <div class="col-sm-2" style="margin-bottom:50px;">
             <a>
               <i class="fa fa-envelope fa-3x" style="border-radius:50px;"></i>
               <br>
               wkdcodns100@gmail.com
             </a>
           </div>
-          <div class="col-sm-2">
+          <div class="col-sm-2" style="margin-bottom:50px;">
             <a href="https://www.linkedin.com/in/chai-jang-598724146/" target="_blank">
               <i class="fa fa-linkedin-square fa-3x"></i>
               <br>
               LinkedIN
             </a>
           </div>
-          <div class="col-sm-2">
+          <div class="col-sm-2" style="margin-bottom:50px;">
             <a onclick="alert('Please send message before adding me as a friend. I usually decline friend requests from strangers.')" href="http://www.facebook.com/ChaiLatteh" target="_blank">
               <i class="fa fa-facebook-official fa-3x"></i>
               <br>
